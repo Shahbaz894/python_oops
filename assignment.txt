@@ -1,0 +1,127 @@
+Q1: Register a Student
+Question:
+Write a function named register_student that takes a student's name and a list of their marks. It should return a dictionary containing both.
+
+🔶 Q2: Add Multiple Students Using *args
+Question:
+Create a function called add_students that accepts any number of student dictionaries and returns them as a list.
+
+🔶 Q3: Calculate Average Marks
+Question:
+Write a function average_marks that accepts a student dictionary and returns the average of their marks.
+
+🔶 Q4: Lambda Grading Function
+Question:
+Use a lambda function to return:
+
+Grade A if average ≥ 90
+
+Grade B if average ≥ 75
+
+Grade C otherwise
+
+🔶 Q5: Use map() to Compute Averages
+Question:
+Use the map() function to apply an average calculator to a list of students and return a list of dictionaries containing their names and average marks.
+
+🔶 Q6: Filter High-Scoring Students
+Question:
+Use filter() and a lambda to get a list of students whose average is 85 or above.
+
+🔶 Q7: Log Function Calls Using a Decorator
+Question:
+Create a decorator logger that prints:
+
+"Calling function..." before the function runs
+
+"Function completed" after it runs
+Use it on a welcome(name) function.
+
+🔶 Q8: Count Passed Students Recursively
+Question:
+Create a recursive function count_pass that accepts a list of students and returns the number of students with average marks ≥ 50.
+
+🔶 Q9: Apply Bonus Marks Using Higher-Order Function
+Question:
+Write a function apply_bonus(student, bonus_func) that applies a function to each mark in a student’s record.
+Example: Increase all marks by 5 using a lambda.
+
+🔶 Q10: Generate Student Report
+Question:
+Write a function generate_report that uses:
+
+average_marks
+
+grade
+to return a dictionary report like:
+
+python
+Copy code
+
+///////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////
+assigmnet 2 
+🔹 Scenario:
+You're building a console-based task tracking system that helps manage tasks, calculate priorities, log actions, and manipulate task data using only functions (no classes yet).
+/////////////////////////////////////////////////////////
+
+Assignment 3: E-Commerce Order System
+🔹 Theme: Managing a shopping cart using functions
+Topics: *args, lambda, filtering, decorators, dictionary handling
+
+Tasks:
+
+add_product_to_cart(name, price, qty)
+
+calculate_total(*cart_items)
+
+apply_discount(cart, discount_func)
+
+filter_expensive_items(cart, threshold)
+
+log_order(func) – decorator to log when an order is placed
+
+generate_invoice(cart) – return formatted string of all items
+
+🧠 Challenge: Apply different discounts using lambda functions (flat %, conditional, etc.)
+
+////////////////////////////////////////////////
+Assignment 2: Banking Transaction System
+🔹 Theme: Simulate basic banking logic
+Topics: recursion, decorators, error handling, lambda, immutability
+
+Tasks:
+
+create_account(name, balance)
+
+deposit(account, amount)
+
+withdraw(account, amount) with error handling
+
+transaction_log(func) – decorator to track logs
+
+batch_deposit(*accounts, amount=100)
+
+get_rich_accounts(accounts, min_balance)
+
+🧠 Challenge: Use recursion to count accounts above a balance threshold
+////////////////////////////////////////////////////////////
+ Assignment 3: Movie Ticket Booking
+🔹 Theme: Functional reservation system
+Topics: default args, keyword args, decorators, validation
+
+Tasks:
+
+book_ticket(name, show_time, seats=1)
+
+cancel_ticket(booking)
+
+show_available_shows() – return dummy list
+
+log_booking(func) – decorator to track all bookings
+
+filter_by_time(bookings, time)
+
+summary_report(bookings)
+
+🧠 Challenge: Handle ticket limits and overbooking using decorators
