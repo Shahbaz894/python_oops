@@ -1,0 +1,8 @@
+ Explanation:
+def count_up_to(max) defines a generator function.
+
+yield pauses the function and sends a value back.
+
+The state of the function is saved until the next call.
+
+On each for loop iteration, the function resumes after yield.
